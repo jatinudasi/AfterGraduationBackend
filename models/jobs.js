@@ -23,6 +23,11 @@ const jobsSchema = new mongoose.Schema({
         type:String,
         trim:true,
         required:true
+    },
+    jobUrl:{
+        type:String,
+        trim:true,
+        required:true
     }
 },{timestamps:true});
 
